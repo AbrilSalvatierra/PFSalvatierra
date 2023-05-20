@@ -1,0 +1,16 @@
+@import "../base/listas";
+
+footer{
+    background-color: nth($colores,2);
+    text-align: center;
+    margin-top:20px;
+    div{
+
+        div{
+            .iconos__redes{
+                justify-content: space-evenly;
+            }
+
+        }
+    }
+}

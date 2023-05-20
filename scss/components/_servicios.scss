@@ -1,0 +1,35 @@
+@import "../base/listas";
+
+main{
+
+    section{
+
+        .card__container{
+            background-color: nth($colores, 5);
+            div{
+
+                .card-body{
+                    
+                    .card-text{
+                        padding-top: 20px;
+            
+                    }
+
+                    .button__servicios{
+                        text-decoration: none;
+                        background-color: nth($colores, 3);
+                        color: nth($colores, 5);
+                        padding: 6px;
+                        border-radius: 5px;
+                        justify-content: center;
+
+                        &:hover{
+                            text-decoration: underline;
+                            color: nth($colores, 2);
+                        }
+                    }
+                }
+                }
+            } 
+    }
+}

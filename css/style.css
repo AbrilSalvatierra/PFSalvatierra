@@ -1,0 +1,139 @@
+header {
+  background-color: #ffddd3;
+  border-bottom: 1px solid #e9bfbf;
+}
+header .bg-home div .navbar-brand {
+  padding: 0px 15px;
+}
+@media screen and (max-width: 768px) {
+  header .bg-home div .navbar-brand img {
+    width: 110px;
+  }
+}
+header .bg-home div .navbar-collapse {
+  justify-content: end;
+}
+header .bg-home div .navbar-collapse ul .nav-item {
+  padding: 0px 15px;
+}
+header .bg-home div .navbar-collapse ul .nav-item:hover {
+  transform: translateY(-0.5px);
+  transition: 1s;
+}
+
+main section .titulo__container, main .productos_container .titulo__container, main .servicios__container .titulo__container, main .hero__carousel__container .titulo__container {
+  text-align: center;
+  padding: 30px 0px;
+  color: #00222C;
+  background-color: #ffddd3;
+  border: 0.5px solid #ffefde;
+  border-radius: 5px;
+  margin: 15px 0px;
+}
+
+main section .carusel__container div div img, main .productos_container .carousel__productos div div img {
+  object-fit: cover;
+  overflow: hidden;
+  border: 1px solid #cccccc;
+}
+main section .carusel__container div div img:hover, main .productos_container .carousel__productos div div img:hover {
+  transform: scale(1.05);
+  transition: 0.5s;
+}
+
+main .hero__carousel__container .titulo__container h1 {
+  font-size: 32px;
+}
+main .hero__carousel__container .titulo__container h2 {
+  font-size: 24px;
+}
+main section .titulo__container, main .hero__carousel__container .titulo__container, main .servicios__container .titulo__container, main .productos_container .titulo__container {
+  text-align: center;
+  padding: 30px 0px;
+  color: #00222C;
+  background-color: #ffddd3;
+  border: 0.5px solid #ffefde;
+  border-radius: 5px;
+  margin: 15px 0px;
+}
+
+main section .carusel__container div div img, main .productos_container .carousel__productos div div img {
+  object-fit: cover;
+  overflow: hidden;
+  border: 1px solid #cccccc;
+}
+main section .carusel__container div div img:hover, main .productos_container .carousel__productos div div img:hover {
+  transform: scale(1.05);
+  transition: 0.5s;
+}
+
+main section .titulo__container h1 {
+  font-size: 32px;
+}
+main section .titulo__container h6 {
+  padding-bottom: 10px;
+}
+
+main section .card__container {
+  background-color: #ffefde;
+}
+main section .card__container div .card-body .card-text {
+  padding-top: 20px;
+}
+main section .card__container div .card-body .button__servicios {
+  text-decoration: none;
+  background-color: #1c1c1c;
+  color: #ffefde;
+  padding: 6px;
+  border-radius: 5px;
+  justify-content: center;
+}
+main section .card__container div .card-body .button__servicios:hover {
+  text-decoration: underline;
+  color: #ffddd3;
+}
+
+footer {
+  background-color: #ffddd3;
+  text-align: center;
+  margin-top: 20px;
+}
+footer div div .iconos__redes {
+  justify-content: space-evenly;
+}
+
+main .hero__carousel__container .titulo__container, main .servicios__container .titulo__container, main .productos_container .titulo__container, main section .titulo__container {
+  text-align: center;
+  padding: 30px 0px;
+  color: #00222C;
+  background-color: #ffddd3;
+  border: 0.5px solid #ffefde;
+  border-radius: 5px;
+  margin: 15px 0px;
+}
+
+main section .carusel__container div div img, main .productos_container .carousel__productos div div img {
+  object-fit: cover;
+  overflow: hidden;
+  border: 1px solid #cccccc;
+}
+main section .carusel__container div div img:hover, main .productos_container .carousel__productos div div img:hover {
+  transform: scale(1.05);
+  transition: 0.5s;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: "Ubuntu", sans-serif;
+}
+
+body {
+  background-image: url("../images/background.png");
+  background-size: auto;
+  background-attachment: fixed;
+}
+
+/*# sourceMappingURL=style.css.map */

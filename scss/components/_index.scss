@@ -1,0 +1,49 @@
+@import "../base/listas";
+@import "../base/extends";
+
+main{
+
+    .hero__carousel__container{
+
+        .titulo__container{
+            @extend %titulos;
+
+            h1{
+                font-size: nth($size, 1);
+            }
+            h2{
+                font-size: nth($size, 2);
+            }
+        }
+    }
+
+    .servicios__container{
+
+        .titulo__container{
+            @extend %titulos;
+
+        }
+    }
+
+    .productos_container{
+
+        .titulo__container{
+            @extend %titulos;
+
+        }
+
+        .carousel__productos{
+            div{
+
+                div{
+
+                    img{
+                        @extend %imagenes-carousel;
+                        
+                    }
+                }
+            }
+        }
+    }
+}
+

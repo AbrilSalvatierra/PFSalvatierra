@@ -1,0 +1,21 @@
+@import "listas";
+
+%titulos{
+    text-align: center;
+    padding: 30px 0px;
+    color: nth($colores, 1);
+    background-color: nth($colores, 2);
+    border: 0.5px solid nth($colores , 5);
+    border-radius: 5px;
+    margin: 15px 0px;
+}
+
+%imagenes-carousel{
+            object-fit: cover;
+            overflow: hidden;
+            border: 1px solid nth($colores, 6);
+            &:hover{
+                transform: scale(1.05);
+                transition:0.5s;
+            }
+}

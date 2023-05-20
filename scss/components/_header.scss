@@ -1,0 +1,35 @@
+@import "../base/listas";
+
+header{
+    
+    background-color: nth($colores, 2);
+    border-bottom: 1px solid nth($colores, 4);
+    .bg-home{
+        
+        div{
+            
+            .navbar-brand{
+                padding: 0px 15px;
+                img{
+                    @media screen and (max-width: 768px){
+                        width: 110px;
+                    }          
+                }
+            }
+
+            .navbar-collapse{
+                justify-content: end;
+                ul{
+                    .nav-item{
+                        padding: 0px 15px;
+
+                        &:hover{
+                            transform: translateY(-0.5px);
+                            transition: 1s;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

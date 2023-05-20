@@ -1,0 +1,21 @@
+@import "components/header";
+@import "components/index";
+@import "components/nosotros";
+@import "components/servicios";
+@import "components/footer";
+@import "components/tienda";
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body{
+    background-image:url("../images/background.png");
+    background-size:auto;
+    background-attachment:fixed;
+}
